@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{46B84A85-1496-450C-861E-E495CCE2DC53}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UI3</RootNamespace>
+    <AssemblyName>UI3</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Addadrs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addadrs.Designer.cs">
+      <DependentUpon>Addadrs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Addblodbnk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addblodbnk.Designer.cs">
+      <DependentUpon>Addblodbnk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adddnt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adddnt.Designer.cs">
+      <DependentUpon>Adddnt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adddonor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adddonor.Designer.cs">
+      <DependentUpon>Adddonor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Addmdclcond.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addmdclcond.Designer.cs">
+      <DependentUpon>Addmdclcond.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Addmdct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addmdct.Designer.cs">
+      <DependentUpon>Addmdct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Addstf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addstf.Designer.cs">
+      <DependentUpon>Addstf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deleteadrs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deleteadrs.Designer.cs">
+      <DependentUpon>Deleteadrs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deleteblodbnk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deleteblodbnk.Designer.cs">
+      <DependentUpon>Deleteblodbnk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deletednt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deletednt.Designer.cs">
+      <DependentUpon>Deletednt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deletedonr2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deletedonr2.Designer.cs">
+      <DependentUpon>Deletedonr2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deletemdclcond.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deletemdclcond.Designer.cs">
+      <DependentUpon>Deletemdclcond.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deletemdct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deletemdct.Designer.cs">
+      <DependentUpon>Deletemdct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deletestf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deletestf.Designer.cs">
+      <DependentUpon>Deletestf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DonorsHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DonorsHome.Designer.cs">
+      <DependentUpon>DonorsHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaffHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffHome.Designer.cs">
+      <DependentUpon>StaffHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Updateadrs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updateadrs.Designer.cs">
+      <DependentUpon>Updateadrs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Updatebloodbnk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updatebloodbnk.Designer.cs">
+      <DependentUpon>Updatebloodbnk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Updatednt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updatednt.Designer.cs">
+      <DependentUpon>Updatednt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Updatedonor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updatedonor.Designer.cs">
+      <DependentUpon>Updatedonor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Updatemdccondt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updatemdccondt.Designer.cs">
+      <DependentUpon>Updatemdccondt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Updatemdct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updatemdct.Designer.cs">
+      <DependentUpon>Updatemdct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Updatestf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updatestf.Designer.cs">
+      <DependentUpon>Updatestf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Updtdonr2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updtdonr2.Designer.cs">
+      <DependentUpon>Updtdonr2.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Addadrs.resx">
+      <DependentUpon>Addadrs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addblodbnk.resx">
+      <DependentUpon>Addblodbnk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adddnt.resx">
+      <DependentUpon>Adddnt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adddonor.resx">
+      <DependentUpon>Adddonor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addmdclcond.resx">
+      <DependentUpon>Addmdclcond.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addmdct.resx">
+      <DependentUpon>Addmdct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addstf.resx">
+      <DependentUpon>Addstf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deleteadrs.resx">
+      <DependentUpon>Deleteadrs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deleteblodbnk.resx">
+      <DependentUpon>Deleteblodbnk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deletednt.resx">
+      <DependentUpon>Deletednt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deletedonr2.resx">
+      <DependentUpon>Deletedonr2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deletemdclcond.resx">
+      <DependentUpon>Deletemdclcond.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deletemdct.resx">
+      <DependentUpon>Deletemdct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deletestf.resx">
+      <DependentUpon>Deletestf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DonorsHome.resx">
+      <DependentUpon>DonorsHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="StaffHome.resx">
+      <DependentUpon>StaffHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updateadrs.resx">
+      <DependentUpon>Updateadrs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updatebloodbnk.resx">
+      <DependentUpon>Updatebloodbnk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updatednt.resx">
+      <DependentUpon>Updatednt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updatedonor.resx">
+      <DependentUpon>Updatedonor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updatemdccondt.resx">
+      <DependentUpon>Updatemdccondt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updatemdct.resx">
+      <DependentUpon>Updatemdct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updatestf.resx">
+      <DependentUpon>Updatestf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updtdonr2.resx">
+      <DependentUpon>Updtdonr2.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{2e2e09e4-514d-4e63-9c05-b193cbda9bfe}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
